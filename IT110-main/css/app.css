@@ -1,0 +1,122 @@
+#loginbox{
+    margin-top:100px
+}
+
+.panel-heading a{
+    float:right;
+    font-size: 80%;
+    position: relative;
+    top:-10px
+}
+
+.panel-body{
+    padding-top:30px;
+}
+
+/* #login-alert{
+    display:visible;
+} */
+
+#loginform .input-group{
+    margin-bottom: 25px;
+}
+
+#loginform .form-group{
+    margin-top:10px;
+}
+
+.form-footer{
+    border-top: 1px solid#888; 
+    padding-top:15px; 
+    font-size:85%;
+}
+
+#signupbox{
+    
+    margin-top:100px;
+}
+
+.signinlink{
+    float:right;
+    font-size: 85%;
+    position: relative;
+    top:-10px;
+}
+
+#signupbox .form-group span{
+    margin-left:8px;
+}
+
+#footerline{
+    border-top: 1px solid #999;
+    padding-top:20px;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.new-note{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.new-note input,
+.new-note textarea,
+.new-note button{
+    font-family: Arial;
+    padding: 5px 10px;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.notes {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.note {
+    background: linear-gradient(180deg, rgba(255,252,0,1) 0%, rgba(255,188,0,1) 72%, rgba(252,182,0,1) 100%);
+
+    color: black;
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    min-height: 100px;
+}
+.note .title{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.note .title a {
+    color: black;
+}
+.note .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.note .btn {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background-color: hidden;
+    border: none;
+    outline:none;
+}
+.note small {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    margin-top: 10px;
+    display: block;
+    text-align: right;
+    font-style: italic;
+}
